@@ -1,0 +1,167 @@
+*{
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    min-height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    font-size: 3rem;
+    margin: 2rem 0rem;
+}
+
+.container{
+    max-width: 1068px;
+    margin: auto;
+    width: 100%;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0 ;
+}
+
+.nav-menu{
+    text-decoration: none;
+}
+
+.nav .nav-menu li{
+    list-style:lower-alpha;
+    display: inline-block;
+    
+}
+.nav .nav-menu li a{
+    display: block;
+    color: rgb(179, 119, 131);
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 50px;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+.nav .nav-menu li a:hover{
+    color: rgb(31, 27, 28);
+}
+
+.nav-btn{
+    color: rgb(27, 26, 26);
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}
+
+.logo{
+    font-size: 2.1rem;
+    color: rgb(185, 5, 5);
+    font-weight: 400;
+    text-decoration: none;
+}
+.logo:hover{
+    color:  rgb(100, 95, 95);
+}
+
+body{
+    background-color: rgb(245, 244, 239);
+}
+.container-fluid{
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.container-fluid h2{
+    color: green;
+    position: relative;
+    width: 23rem;
+}
+
+.container-fluid h2:after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 12px;
+    width: 67px;
+    height: 2px;
+    background-color: rgb(206, 182, 194);
+}
+.accordion {
+    width: 100%;
+    padding: 20 5px;
+    border: 2px solid rgb(239, 239, 241);
+    cursor: pointer;
+    border-radius: 50px;
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+}
+.accordion .icon{
+    margin: 0 10px 0 0;
+    width: 30px;
+    height: 30px;
+    background: url("") no-repeat 8px 7px rgb(163, 163, 167);
+}
+.accordion {
+    background-color: rgb(200, 203, 209);
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc; 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: rgb(252, 250, 250);
+    overflow: hidden;
+  }
+
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #b8c2ca;
+    color: white;
+    font-size: 17px;
+    border: 1px solid rgb(122, 119, 119);
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
